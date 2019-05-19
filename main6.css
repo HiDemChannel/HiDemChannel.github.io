@@ -1,0 +1,89 @@
+/* * {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ сброс всех настроек на странице*/
+.img-box {
+	column-count: 4; /*делает картинки в 4 столбика*/
+	column-gap: 0;  /*убираем отступ*/
+}
+
+.image {
+	max-width: 100%;
+	display: block;  /*выравнивание картинки в полный размер*/
+}
+
+.image + .image {
+	margin: 3px; /*отступ между картинками 3 пикселя*/
+}
+#a1{
+	transform: scale(0.9);
+    background-color: #4c4214;
+    color: #fefefe;
+	text-align: center;
+	padding: 15px;
+	margin: 30px;
+	border: 10px solid #0ce8df;
+	border-radius: 30px;
+	opacity: 0.6;
+	box-shadow: 0px 15px 10px #0dab1a;
+	font-size: 30px;
+	height: 30px;
+	font-weight: 900;
+	font-family: 'Russo One', sans-serif;
+}
+a{
+	text-decoration: none;  /*Убрать черту*/
+	font-size: 20px;  /*Размер шрифта*/
+}
+#a1{
+	transform: scale(0.9);
+    background-color: #4c4214;
+    color: #fefefe;
+	text-align: center;
+	padding: 15px;
+	margin: 30px;
+	border: 10px solid #0ce8df;
+	border-radius: 30px;
+	opacity: 0.6;
+	box-shadow: 0px 15px 10px #0dab1a;
+	font-size: 30px;
+	height: 30px;
+	font-weight: 900;
+	font-family: 'Russo One', sans-serif;
+}
+#a2{
+	transform: scale(0.9);
+    background-color: #4c4214;
+    color: #fefefe;
+	text-align: center;
+	padding: 15px;
+	margin: 30px;
+	border: 10px solid #0ce8df;
+	border-radius: 30px;
+	opacity: 0.6;
+	box-shadow: 0px 15px 10px #0dab1a;
+	font-size: 30px;
+	height: 30px;
+	font-weight: 900;
+	font-family: 'Russo One', sans-serif;
+}
+#a3{
+	transform: scale(0.9);
+    background-color: #4c4214;
+    color: #fefefe;
+	text-align: center;
+	padding: 15px;
+	margin: 30px;
+	border: 10px solid #0ce8df;
+	border-radius: 30px;
+	opacity: 0.6;
+	box-shadow: 0px 15px 10px #0dab1a;
+	font-size: 30px;
+	height: 30px;
+	font-weight: 900;
+	font-family: 'Russo One', sans-serif;
+}
