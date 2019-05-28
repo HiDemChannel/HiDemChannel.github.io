@@ -43,3 +43,10 @@ a{
 	font-weight: 900;
 	font-family: 'Russo One', sans-serif;
 }
+.size2 {
+	font-size: 48px;
+	text-align: center;
+	width: 60%;
+	padding: 60px 10;
+	font-family: 'Permanent Marker', cursive;
+}
