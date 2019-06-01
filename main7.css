@@ -1,0 +1,55 @@
+/*main.main>.img-box2>img.image[src='img/img4.jpg'][alt='Gallery image']*10
+мы  создаём 10 ссылок на картинки с названием img*/
+.img-box2 {
+	column-count: 4; /*делает картинки в 4 столбика*/
+	column-gap: 0;  /*убираем отступ*/
+}
+
+.image {
+	max-width: 100%;
+	display: block;  /*выравнивание картинки в полный размер*/
+	background-position: center; /*совмещает изображение с центром контейнера*/
+	-webkit-background-size = cover;
+	background-size = cover; /*масштабирует изображение с соответствии с его размерами*/
+	transition: 0.4s ease-in-out, transform 0.5s ease-in, box-shadow 0.3s ease-out;  /*плавность появления прозрачности*/
+	margin: 5px;
+}
+
+.image + .image {
+	margin: 3px; /*отступ между картинками 3 пикселя*/
+}
+.size {
+	font-size: 48px;
+	text-align: center;
+	width: 60%;
+	padding: 60px 10;
+	font-family: 'Permanent Marker', cursive;
+}
+a{
+	text-decoration: none;  /*Убрать черту*/
+	font-size: 20px;  /*Размер шрифта*/
+}
+#a1{
+	transform: scale(0.9);
+    background-color: #4c4214;
+    color: #fefefe;
+	text-align: center;
+	padding: 15px;
+	margin: 30px;
+	border: 10px solid #0ce8df;
+	border-radius: 30px;
+	opacity: 0.6;
+	box-shadow: 0px 15px 10px #0dab1a;
+	font-size: 30px;
+	height: 30px;
+	font-weight: 900;
+	font-family: 'Russo One', sans-serif;
+}
+.image:hover {
+	opacity: 1;  /*прозрачность картинки при наведении*/
+	transform: scale(1.4) rotate(360deg);  /*размер картинки при наведении (в процентах); 1.2 - это 20%*/
+	z-index: 20;
+	box-shadow: 0 0 200px 30px rgba(0,0,0,0.4);
+
+
+}
